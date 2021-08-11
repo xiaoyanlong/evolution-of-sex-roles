@@ -2,7 +2,7 @@
 
 #!!! adjust the time quota !!!
 
-#SBATCH --time=10:00:00
+#SBATCH --time=15:00:00
 #SBATCH --partition=gelifes
 #SBATCH --ntasks=1
 #SBATCH --nodes=1
@@ -12,4 +12,4 @@
 module load GCC --latest
 
 datadir="/data/$(whoami)"
-./bin/evorole --force param=2021-07-12-pre_0.001_male0_female0_5e6.json rep=10 outdir=$datadir/2021-07-12-pre_0.001_male0_female0_5e6
+./bin/evorole --force param=2021-08-11-pre_sexual_selection_male3.json rep=5 outdir=$datadir/2021-08-11-pre_sexual_selection_male3
