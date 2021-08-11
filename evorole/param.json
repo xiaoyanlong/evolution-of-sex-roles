@@ -1,7 +1,7 @@
 [
 	{
 		"N": 2000,
-		"tEnd": 50001,
+		"tEnd": 5000001,
 		"genome": {
 			"P": 0.0,
 			"tau": 0.0,
@@ -24,8 +24,8 @@
 		},
 		"common": {
 			"juvT": 20,
-			"D": 5.0,
-			"sigma": 0.0
+			"D": 20.0,
+			"sigma": 0.05
 		},
 		"mutation": {
 			"m_P": 0.0,
@@ -34,11 +34,11 @@
 			"m_tau": 0.0,
 			"sigma_tau": 0.01,
 			"smax_tau": 0.05,
-			"m_pc": 0.0
+			"m_pc": 0.005
 		},
 		"recorder": {
-			"event_interval": 100,
-			"trait_interval": 100
+			"event_interval": 5000000,
+			"trait_interval": 1000
 		}
 	}
 ]
